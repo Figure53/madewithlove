@@ -79,7 +79,6 @@ td { vertical-align: top; }
    form input { background-color: #F7F7F7; border: 0; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; color: #828080; display: block; font-family: Monaco, Menlo, monospace; font-size: 12px; padding: 10px; width: 630px; }
    form input:focus { border: none; outline: none; }
    a { text-decoration: none; }
-   .main ul a { text-decoration: underline; }
    p { font-weight: 200; line-height: 1.6; margin: 0 0 15px 0; padding: 0; }
    p a { color: #828080; font-weight: 500; }
    ul { color: #e7e7e7; font-size: 18px; margin: 0 0 0 20px; padding: 0; }
@@ -89,6 +88,7 @@ td { vertical-align: top; }
    hr { background-color: #E5E5E5; border: 0; color: #E5E5E5; height: 1px; margin: 30px 0 40px 0; }
 
    #container { margin: 75px auto 0 auto; width: 650px; }
+   #container ul a { text-decoration: underline; }
 
    footer { text-align: center; padding-top: 150px; }
    footer p { font-size: 14px; }
