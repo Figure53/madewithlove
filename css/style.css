@@ -84,7 +84,7 @@ td { vertical-align: top; }
    li { margin-bottom: 10px; }
    li a { color: #b9b9b9; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 24px; font-weight: 200; }
    li a:hover { background-color: #f0f0f0; }
-   hr { background-color: #E5E5E5; border: 0; color: #E5E5E5; height: 1px; margin: 40px 0; }
+   hr { background-color: #E5E5E5; border: 0; color: #E5E5E5; height: 1px; margin: 30px 0 40px 0; }
    
    #container { margin: 75px auto 0 auto; width: 650px; }
    
