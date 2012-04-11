@@ -3,10 +3,10 @@
 
 
 /* TEAM */
-  <your title>: <your name>
-  Site:
-  Twitter:
-  Location:
+  Developers: Figure 53
+  Site: http://figure53.com
+  Twitter: http://twitter.com/Figure53
+  Location: Baltimore, MD
 
 /* THANKS */
   Names (& URL):
