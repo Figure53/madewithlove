@@ -78,7 +78,7 @@ td { vertical-align: top; }
    h2 { color: #aeaeae; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 36px; font-weight: 300; margin-bottom: 5px; }
    form input { background-color: #F7F7F7; border: 0; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; color: #828080; display: block; font-family: Monaco, Menlo, monospace; font-size: 12px; padding: 10px; width: 630px; }
    form input:focus { border: none; outline: none; }
-   a { text-decoration: none; }
+   a { text-decoration: underline; }
    p { font-weight: 200; line-height: 1.6; margin: 0 0 15px 0; padding: 0; }
    p a { color: #828080; font-weight: 500; }
    ul { color: #e7e7e7; font-size: 18px; margin: 0 0 0 20px; padding: 0; }
@@ -86,12 +86,14 @@ td { vertical-align: top; }
    li a { color: #666; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 24px; font-weight: 200; }
    li a:hover { background-color: #f0f0f0; }
    hr { background-color: #E5E5E5; border: 0; color: #E5E5E5; height: 1px; margin: 30px 0 40px 0; }
-   
+
    #container { margin: 75px auto 0 auto; width: 650px; }
-   
+
    footer { text-align: center; padding-top: 150px; }
    footer p { font-size: 14px; }
    footer p a { color: #b6b5b5; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-weight: 200; }
+
+   .footnote { font-size: 13px; margin-top: 16px; font-weight: 400; }
 
 
 
@@ -120,7 +122,7 @@ td { vertical-align: top; }
 /* =============================================================================
    Print Styles
    ========================================================================== */
- 
+
 @media print {
   * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
   a, a:visited { text-decoration: underline; }
