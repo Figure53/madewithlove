@@ -92,7 +92,7 @@ td { vertical-align: top; }
    #container { margin: 75px auto 0 auto; width: 650px; }
    #container ul a { text-decoration: underline; }
 
-   footer { text-align: center; padding-top: 150px; }
+   footer { text-align: center; padding-top: 150px; padding-bottom: 20px; }
    footer p { font-size: 14px; }
    footer p a { color: #b6b5b5; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-weight: 200; }
 
