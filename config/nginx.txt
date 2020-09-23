@@ -1,0 +1,46 @@
+server {
+        listen 80;
+        server_name madewithloveinbaltimore.org;
+        #server_name 192.241.249.180 madewithloveinbaltimore.org;
+        root /home/deploy/madewithloveinbaltimore.org;
+
+        index index.html index.htm;
+
+        location / {
+                # First attempt to serve request as file, then
+                # as directory, then fall back to displaying a 404.
+                try_files $uri $uri/ =404;
+        }
+
+        location ~ /\.ht {
+                deny all;
+        }
+}
+server {
+    server_name www.madewithloveinbaltimore.org;
+    return 301 $scheme://madewithloveinbaltimore.org$request_uri;
+}
+server {
+    server_name madewithloveinbaltimore.com;
+    return 301 $scheme://madewithloveinbaltimore.org$request_uri;
+}
+server {
+    server_name www.madewithloveinbaltimore.com;
+    return 301 $scheme://madewithloveinbaltimore.org$request_uri;
+}
+server {
+    server_name madewithheartinbaltimore.org;
+    return 301 $scheme://madewithloveinbaltimore.org$request_uri;
+}
+server {
+    server_name www.madewithheartinbaltimore.org;
+    return 301 $scheme://madewithloveinbaltimore.org$request_uri;
+}
+server {
+    server_name madewithheartinbaltimore.com;
+    return 301 $scheme://madewithloveinbaltimore.org$request_uri;
+}
+server {
+    server_name www.madewithheartinbaltimore.com;
+    return 301 $scheme://madewithloveinbaltimore.org$request_uri;
+}
